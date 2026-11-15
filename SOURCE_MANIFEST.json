@@ -1,0 +1,18 @@
+{
+  "source_repository": "JGBDesign69/trellis2-car-multiview",
+  "source_commit": "c666b092",
+  "note": "Each listed snapshot file has the same Git blob SHA as the canonical source commit.",
+  "files": {
+    "serverless/Dockerfile": "9823ce66e799030ec20ce27fbb5eaca1260e233d",
+    "serverless/start.sh": "487c9f77c1a4d3280a53f62ed3fca7385e2de9a6",
+    "serverless/verify-gpu-runtime.py": "6c02b967c8df2661b956dd9db9e7641c110cbe91",
+    "serverless/verify-native-deps.py": "fffb081f8d071d649f86b2a78f9d2c2487d55441",
+    "serverless/verify-comfy-workflow.py": "199fecaaa7681daebf0bbd145579a5ff99694193",
+    "serverless/handler.py": "19348b94f28a92f4bb6a25dc0ebb92c788e597b8",
+    "serverless/workflow_ui.json": "00cd0758e5facde25b0cde8d7b8176b740d597aa",
+    "serverless/test_handler_contract.py": "c67737abb15608efb18e65376a68623aeba0439f",
+    "serverless/requirements.txt": "e7ab6375a67b7df07848e82155028b2e4935a2d2",
+    "serverless/torch-constraints.txt": "2840b0c38908123b9f31c537f0ee615a9871b202",
+    "serverless/.env.example": "d3cc8039c2ef9823e5a607c23f5f271063e28e12"
+  }
+}
