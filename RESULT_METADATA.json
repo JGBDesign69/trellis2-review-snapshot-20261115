@@ -1,0 +1,73 @@
+{
+  "source_repository": "JGBDesign69/trellis2-car-multiview",
+  "source_commit": "c666b092",
+  "runpod_task": "ea400bc8-fbfb-4dc4-8e93-2a9eeab8f705-e1",
+  "gpu": "NVIDIA A40",
+  "compute_capability": "8.6",
+  "artifact": {
+    "type": "GLB",
+    "bytes": 18435780,
+    "vertices": 284534,
+    "indices": 995937,
+    "triangles": 331979,
+    "materials": 1,
+    "textures": 2,
+    "image_dimensions": [
+      2048,
+      2048
+    ],
+    "image_byte_lengths": [
+      5371568,
+      3387648
+    ],
+    "attributes": [
+      "POSITION",
+      "TEXCOORD_0"
+    ],
+    "pbr": {
+      "baseColorTexture": 0,
+      "metallicRoughnessTexture": 1,
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallicFactor": 1,
+      "roughnessFactor": 1,
+      "alphaMode": "OPAQUE"
+    },
+    "base_color_active_texel_stats": {
+      "mean_rgb": [
+        116.08,
+        115.42,
+        115.27
+      ],
+      "mean_saturation": 0.0572,
+      "mean_chroma": 5.15
+    }
+  },
+  "preprocessing_after_framing": {
+    "CUTOUT_SIZE": 1024,
+    "CUTOUT_INNER": 896,
+    "views": {
+      "front": {
+        "foreground_ratio": 0.5346,
+        "bbox_ratio": 0.6425
+      },
+      "rear": {
+        "foreground_ratio": 0.4684,
+        "bbox_ratio": 0.553
+      },
+      "left": {
+        "foreground_ratio": 0.153,
+        "bbox_ratio": 0.2082
+      },
+      "right": {
+        "foreground_ratio": 0.1518,
+        "bbox_ratio": 0.2082
+      }
+    }
+  },
+  "privacy": "No source photos, GLB binary, signed URLs, credentials or user data are included in this public snapshot."
+}
